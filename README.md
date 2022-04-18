@@ -24,10 +24,10 @@ You'll get an output like:
 {
     "confidence": 0.9998160004615784,
     "probabilities": {
-        "negative": 0.00018407008610665798,
-        "positive": 0.9998160004615784
+        "0": 0.00018407008610665798,
+        "1": 0.9998160004615784
     },
-    "sentiment": "positive"
+    "sentiment": "1"
 }
 ```
 
@@ -40,4 +40,4 @@ You'll get an output like:
 ## References
 
 * [Deploy BERT for Sentiment Analysis as REST API using PyTorch, Transformers by Hugging Face and FastAPI](https://curiousily.com/posts/deploy-bert-for-sentiment-analysis-as-rest-api-using-pytorch-transformers-by-hugging-face-and-fastapi/)
-* [Auto-deploy FastAPI App to Heroku via Git in these 5 Easy Steps](https://towardsdatascience.com/autodeploy-fastapi-app-to-heroku-via-git-in-these-5-easy-steps-8c7958ef5d41)
+* [Deploy-BERT-for-Sentiment-Analysis-with-FastAPI](https://github.com/curiousily/Deploy-BERT-for-Sentiment-Analysis-with-FastAPI)
