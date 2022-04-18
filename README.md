@@ -1,6 +1,6 @@
 # BERTdeploy
 
-This is a small app I built using HuggingFace Transformers and FastAPI to perform text classification using the pre-trained DistilBERT model. I mostly relied on the excellent tutorial by Venelin to build this (ref 1). I made a few key changes to his approach:  
+This is a small app I built using HuggingFace Transformers and FastAPI to perform text classification using the pre-trained BERTimbau model. I mostly relied on the excellent tutorial by Venelin to build this (ref 1). I made a few key changes to his approach:  
 
 * Used pre-trained model instead of fine-tuning
 * Used `requirement.txt` for pip instead of using pipenv
@@ -14,7 +14,7 @@ This is a small app I built using HuggingFace Transformers and FastAPI to perfor
 Then make your API call:
 
 ```bash
-http POST http://127.0.0.1:8000/classify text="Pre-trained DistilBERT seems to work quite well!"
+http POST http://127.0.0.1:8000/classifica text="Pre-trained BERTimbau seems to work quite well!"
 ```
 
 You'll get an output like:
