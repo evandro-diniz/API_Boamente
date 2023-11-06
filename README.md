@@ -1,4 +1,4 @@
-# BERT API deploy
+# BERT API
 
 API desenvolvida como parte dos resultados da minha pesquisa de mestrado. 
 Criei o Sistema Boamente para classificar textos que possuem ou não ideação suicida.
