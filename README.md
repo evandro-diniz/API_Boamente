@@ -15,3 +15,4 @@ Esta API utiliza o FastAPI, e recebe textos de uma aplicação de teclado virtua
 
 * [Deploy BERT for Sentiment Analysis as REST API using PyTorch, Transformers by Hugging Face and FastAPI](https://curiousily.com/posts/deploy-bert-for-sentiment-analysis-as-rest-api-using-pytorch-transformers-by-hugging-face-and-fastapi/)
 * [Deploy-BERT-for-Sentiment-Analysis-with-FastAPI](https://github.com/curiousily/Deploy-BERT-for-Sentiment-Analysis-with-FastAPI)
+* [BertDeploy](https://github.com/sshkhr/BERTdeploy)
