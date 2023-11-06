@@ -1,40 +1,14 @@
-# BERTdeploy
+# BERT API deploy
 
-This is a small app I built using HuggingFace Transformers and FastAPI to perform text classification using the pre-trained BERTimbau model. I mostly relied on the excellent tutorial by Venelin to build this (ref 1). I made a few key changes to his approach:  
+API desenvolvida como parte dos resultados da minha pesquisa de mestrado. 
+Criei o Sistema Boamente para classificar textos que possuem ou não ideação suicida.
+Esta API utiliza o FastAPI, e recebe textos de uma aplicação de teclado virtual, os classifica e envia para um site também desenvolvido.
 
-* Used pre-trained model instead of fine-tuning
-* Used `requirement.txt` for pip instead of using pipenv
-* Did not use a lot of extra code style packages
 
-**How to use?**
+**Instalação necessária**
 
 * `pip install requirements.txt`
 * `bash bin/run_server`
-
-Then make your API call:
-
-```bash
-http POST http://127.0.0.1:8000/classifica text="Pre-trained BERTimbau seems to work quite well!"
-```
-
-You'll get an output like:
-
-
-```js
-{
-    "confidence": 0.9998160004615784,
-    "probabilities": {
-        "0": 0.00018407008610665798,
-        "1": 0.9998160004615784
-    },
-    "sentiment": "1"
-}
-```
-
-## TO-DO
-
-* Deploy on Heroku - will need to find a workaround for downloading pre-trained models since Heroku's file system is ephemeral
-* Add tests for API calls
 
 
 ## References
